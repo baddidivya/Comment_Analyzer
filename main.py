@@ -83,11 +83,6 @@ def sentiment():
         error = "Both entry not allowed"
         return render_template('index2.html', error=error)
 
-
-    consumerKey = "tElQSmLQ0gea5BZHgBad7q1xX"
-    consumerSecret = "GT0h2TWaBIN5m69A9joCuDemhmVE6EbnuCU26NrBVi9ndiaYIs"
-    accessToken = "1678438212350492672-blIY2M5VvO5ykDbkBXWQmtlnSa2BUh"
-    accessTokenSecret = "DoOYAkjqoOC1RMMNOhN0ip2MvmjSmIFDS7ICb3zk1bDcm"
     
     authenticate = tweepy.OAuthHandler(consumerKey, consumerSecret)
     authenticate.set_access_token(accessToken, accessTokenSecret)
