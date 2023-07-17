@@ -14,8 +14,7 @@ def mailsend(emailto):
   emailfrom = "commentanalyzer12@gmail.com"
   fileToSend = ["Full Comments.csv", "Positive Comments.csv", "Negative Comments.csv"]
   ImagesToSend = ["word_cloud_plot.png","pie_chart_plot.png"]
-  username = "commentanalyzer12@gmail.com"
-  password = "xtkcyiszhomxzekh"
+  
 
 
   msg = MIMEMultipart()
